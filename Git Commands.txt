@@ -1,9 +1,7 @@
+        {Git Basic Commands}
+
 git --version
 (version)
-
-git config --global user.name "github name"
-git config --global user.email "example.1234@gmail.com"
-(set credentials to access github)
 
 git status 
 (get status of the code)
@@ -11,7 +9,13 @@ git status
 git clone <link>
 (clone repository from github)
 
-//changes
+        {Setting up Git}
+
+git config --global user.name "github name"
+git config --global user.email "example.1234@gmail.com"
+(set credentials to access github)
+
+        {Commands to Make Changes and to upload/download}
 
 git add <file name> / git add . (. adds all files)
 (to add a file)
@@ -19,13 +23,17 @@ git add <file name> / git add . (. adds all files)
 git commit -m "message"
 (to commit)
 
-
-
 git push origin main 
 (to upload local repo to your remote repo)
 
+git pull origin main 
+(to pull and download from remote repo to local repo)
+
+
 git init 
 (to create a new repo)
+
+        {Branch Commands}
 
 git branch 
 (to check in which branch you are)
@@ -48,6 +56,8 @@ git diff <branch name>
 git merge <branch name> 
 (to merge different branches)
 
+        {Undo Commands}
+
 git reset
 (to undo Staged (add) changes)
   
@@ -56,11 +66,6 @@ git reset HEAD~1
 
 git reset <commit hash>
 (to undo multiple commits)
-
-
-
-git pull origin main 
-(to pull and download from remote repo to local repo)
 
 
 mkdir 
