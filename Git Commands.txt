@@ -1,0 +1,38 @@
+git --version
+(version)
+
+git config --global user.name "github name"
+git config --global user.email "example.1234@gmail.com"
+(set credentials to access github)
+
+git status 
+(get status of the code)
+
+
+
+git add <file name> / git add . (. adds all files)
+(to add a file)
+
+git commit -m "message"
+(to commit)
+
+git clone <link>
+(clone repository from github)
+
+git push origin main 
+(to upload local repo to your remote repo)
+
+git init 
+(to create a new repo)
+
+git branch -M main 
+(to change the branch to main)
+
+
+
+mkdir 
+(make directory)
+
+
+
+
