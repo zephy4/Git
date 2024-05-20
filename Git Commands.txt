@@ -27,9 +27,24 @@ git push origin main
 git init 
 (to create a new repo)
 
+git branch 
+(to check in which branch you are)
+
+git checkout <branch name>
+(to navigate to other branch)
+
+git checkout -b <branch name>
+(to create a new branch)
+
+git branch -d <branch name> 
+(to delete branch)
+
 git branch -M main 
 (to change the branch to main)
 
+
+git pull origin main 
+(to pull and download from remote repo to local repo)
 
 
 mkdir 
