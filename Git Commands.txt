@@ -48,7 +48,11 @@ git diff <branch name>
 git merge <branch name> 
 (to merge different branches)
 
-
+git reset
+(to undo Staged (add) changes)
+  
+git reset HEAD~1 
+(to undo one Commit)
 
 
 git pull origin main 
