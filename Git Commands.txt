@@ -54,6 +54,10 @@ git reset
 git reset HEAD~1 
 (to undo one Commit)
 
+git reset <commit hash>
+(to undo multiple commits)
+
+
 
 git pull origin main 
 (to pull and download from remote repo to local repo)
