@@ -8,7 +8,10 @@ git config --global user.email "example.1234@gmail.com"
 git status 
 (get status of the code)
 
+git clone <link>
+(clone repository from github)
 
+//changes
 
 git add <file name> / git add . (. adds all files)
 (to add a file)
@@ -16,8 +19,7 @@ git add <file name> / git add . (. adds all files)
 git commit -m "message"
 (to commit)
 
-git clone <link>
-(clone repository from github)
+
 
 git push origin main 
 (to upload local repo to your remote repo)
