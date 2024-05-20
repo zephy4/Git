@@ -42,6 +42,14 @@ git branch -d <branch name>
 git branch -M main 
 (to change the branch to main)
 
+git diff <branch name>
+(to compare branches )
+
+git merge <branch name> 
+(to merge different branches)
+
+
+
 
 git pull origin main 
 (to pull and download from remote repo to local repo)
